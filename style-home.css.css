@@ -1,0 +1,49 @@
+body {
+	background: #CCCCCC;
+}
+
+div {
+	background:indianred;
+	padding: 20px;
+}
+
+
+
+
+h1{
+text-align: center;
+}
+
+strong em {
+	color: red ;
+}
+
+
+p{
+	text-align: center;
+	
+}
+
+h3 {
+	text-align: blue;
+}
+
+.itens {
+	font-style: italic;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	display: inline-block;
+	
+	padding: 20px;
+	
+}
+
+
+.Imagensbeneficio{
+
+}
