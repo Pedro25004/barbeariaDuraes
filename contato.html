@@ -1,0 +1,90 @@
+<DOCTYPE html>
+	
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+
+		<title> Contato - Barbearia Durães</title>
+	</head>
+	
+
+	<body>
+		<header> 
+			<div class="caixa">
+				<h1><img src="logo.png" style="height: 300px;" alt="logo da barbearia Durães"></h1>
+			
+				<nav>
+					<ul>
+						<li> <a href="index.html">Home</a></li>
+						<li> <a href="produtos.html"> Serviços </a> </li>
+						<li><a href="contato.html"> Contato comercial </a> </li>
+					</ul>
+	           </nav>
+			</div>
+		</header>
+		<main>
+			<form>
+				<label for="nome">Nome e Sobrenome</label>
+				<input type="text" id="nome" class="input-padrao" required>
+
+				<label for="email">email</label>
+				<input type="email" id="email" class="input-padrao" placeholder="ex:barberiaDuraes@gmail.com">
+
+				<label for="numero">Numero para contato</label>
+				<input type="tel" id="numero" class="input-padrao" required placeholder="(11)xxxxx-xxxx">
+
+				<label for="mensagem">Gostaria de acrescentar algum comentario? Ex: Estilo de corte,alergia a algum produto,etc.</label>
+				<textarea cols="60" rows="10" id="mensagem" class="input-padrao"></textarea>
+				
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="radio-email"> Email</label>
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp" checked> Whatsapp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual Horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+				<label><input type="checkbox" class="checkbox" checked > Gostaria de receber novidades e promoções por whatsapp/email? </label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+
+			</form>
+
+			<table>
+    <thead>
+        <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Segunda</td>
+            <td>8h ~ 20h</td>
+        </tr>
+        <tr>
+            <td>Quarta</td>
+            <td>8h ~ 20h</td>
+        </tr>
+        <tr>
+            <td>Sexta</td>
+            <td>8h ~ 20h</td>
+        </tr>
+    </tbody>
+</table>
+
+		</main>
+
+		<footer>
+			<img src="logo-branco.jpg" class="logoBranco" alt="logo da barbearia Durães" >
+			<p class="copyright"> &copy; Copyright Barbearia Durães - 2022</p>
+		</footer>
+	</body>
